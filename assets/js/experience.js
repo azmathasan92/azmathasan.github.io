@@ -72,6 +72,12 @@ const volunteershipcards = [
     description:
       "",
   },
+  {
+    title: "HashiCorp Certified Terraform Associate",
+    cardImage: "assets/images/experience-page/terraform.png",
+    description:
+      "",
+  },
 ];
 
 const showCards = () => {
