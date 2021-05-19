@@ -114,7 +114,7 @@ const mentor = [
   {
     title: "HEB",
     image: "assets/images/experience-page/heb.jpg",
-    time: "01/2021 - 08/2021",
+    time: "01/2020 - 08/2020",
     desp: "<li><b>HEB</b> - is an American privately held supermarket chain based in San Antonio, Texas, with more than 340 stores throughout the U.S. state of Texas, as well as in northeast Mexico. The company also operates Central Market, an upscale organic and fine foods retailer. The Digital Forecast and Replenishment (FAR) team is responsible for developing and maintaining critical software applications that forecast, maintain, and optimize store and warehouse inventory levels.</li><hr /><li><b>Technologies Used:</b> Azure, Databricks, Kubernetes, Docker, Jenkins, Oracle, Data factory, Datadog, NewRelic, Azure Monitor, Grafana, etc</li>",
   },
   {
