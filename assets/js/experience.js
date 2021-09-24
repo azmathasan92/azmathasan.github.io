@@ -11,11 +11,18 @@ const exp = [
     desp: "<li>I started my career with knoldus as a software intern</li> <li>I Worked on scala lagom framework to build a knol reward application in my 3 month of training period</li> <li>Then I moved to DevOps and start training on DevOps tools and technologies</li> <li>In DevOps training I learnt the popular tools like Docker, Jenkins, Kubernetes, Prometheus, Grafana, ELK Stack, linux, Bash scripting, Python scripting, etc.</li>",
   },
   {
-    title: "DevOps Consultant",
+    title: "DevOps Engineer",
     cardImage: "assets/images/experience-page/knoldus.jpg",
     place: "Knoldus Inc.",
-    time: "(Jul 2019 - Now)",
+    time: "(Jul 2019 - June 2021)",
     desp: "<li>Worked on philips project to handle all the DevOps stuff</li><li>Then moved to the HEB project and here I impemented whole CI/CD pipeline and Databricks monitoring setup from scratch</li><li>Then Moved to UKG project in that created CI/CD pipeline using concourse and also wrote terraform modules for the infrastructure.</li>",
+  },
+  {
+    title: "Senior DevOps Engineer",
+    cardImage: "assets/images/experience-page/knoldus.jpg",
+    place: "Knoldus Inc.",
+    time: "(Jul 2021 - Now)",
+    desp: "<li>Working on UKG IAM DevOps Project and Internal Knoldus Infrastructure</li><li>Task Done: Helm Repo Migration to Jfrog, Migrating Apps to GCP from Openstack, Enhancement of existing deployment pipelines and etc</li><li>Tools and technologies that I am currently working on: Linux, Docker, Kubernetes, Helm3, Terraform, Packer, Ansible, Vault, Openstack, GCP, Concourse etc</li>",
   },
 ];
 
@@ -120,8 +127,14 @@ const mentor = [
   {
     title: "UKG Notifications",
     image: "assets/images/experience-page/ukg.jpg",
-    time: "08/2020 - now",
+    time: "08/2020 - 04/2021",
     desp: "<li><b>UKG Notifications</b> - This is an HR and workforce management solution in which we worked on a notification platform, The aim of this to enable two-way communication using sms, slack, and email.</li><hr /><li><b>Technologies Used:</b> Kubernetes, Docker, ConcourseCI, Terraform, AWS(SES, SQS, Pinpoint, Kinesis, and DynamoDB), Quark(In-house Tool for k8 deployment), influxDB, Grafana, Spring, Java, BItbucket, Sonar, MongoDB, Kafka, Rabbit, ISTIO, etc</li>",
+  },
+  {
+    title: "UKG IAM-DevOps",
+    image: "assets/images/experience-page/ukg.jpg",
+    time: "04/2021 - now",
+    desp: "<li><b>UKG IAM-DevOps</b> - This is a UKG Platform for Identity and Access Management that is built on top of the ForgeRock and OpenStack.</li><hr /><li><b>Technologies Used:</b> Kubernetes, Helm, Docker, ConcourseCI, Terraform, Packer, ForgeRock, OpenStack, Fling, GCP, influxDB, Grafana, Spring, Java, BItbucket, Sonar, MongoDB, Kafka, Rabbit, ISTIO, ELK Stack, etc</li>",
   },
 ];
 
