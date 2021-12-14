@@ -4,11 +4,18 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "DevOps Intern",
+    title: "Lead DevOps Engineer",
+    cardImage: "assets/images/experience-page/ukg.jpg",
+    place: "UKG",
+    time: "(Nov 2021 - Now)",
+    desp: "<li>Working on UKG IAM Project</li><li>Provide Devops support to the team</li><li>Devops Tools: GCP, ConcourseCI, Kubernetes, Helm, Terraform, Ansible, Packer, Bitbucket, SonarQube, Grafana, ELK, ForgeRock, RabbitMQ, Kafka, Radis, SpringBoot, etc</li>",
+  },
+  {
+    title: "Senior DevOps Engineer",
     cardImage: "assets/images/experience-page/knoldus.jpg",
     place: "Knoldus Inc.",
-    time: "(Jan, 2019 - Jun, 2019)",
-    desp: "<li>I started my career with knoldus as a software intern</li> <li>I Worked on scala lagom framework to build a knol reward application in my 3 month of training period</li> <li>Then I moved to DevOps and start training on DevOps tools and technologies</li> <li>In DevOps training I learnt the popular tools like Docker, Jenkins, Kubernetes, Prometheus, Grafana, ELK Stack, linux, Bash scripting, Python scripting, etc.</li>",
+    time: "(Jul 2021 - Now)",
+    desp: "<li>Worked on UKG IAM DevOps Project and Internal Knoldus Infrastructure</li><li>Task Done: Helm Repo Migration to Jfrog, Migrating Apps to GCP from Openstack, Enhancement of existing deployment pipelines and etc</li><li>Tools and technologies that I am currently working on: Linux, Docker, Kubernetes, Helm3, Terraform, Packer, Ansible, Vault, Openstack, GCP, Concourse etc</li>",
   },
   {
     title: "DevOps Engineer",
@@ -18,12 +25,12 @@ const exp = [
     desp: "<li>Worked on philips project to handle all the DevOps stuff</li><li>Then moved to the HEB project and here I impemented whole CI/CD pipeline and Databricks monitoring setup from scratch</li><li>Then Moved to UKG project in that created CI/CD pipeline using concourse and also wrote terraform modules for the infrastructure.</li>",
   },
   {
-    title: "Senior DevOps Engineer",
+    title: "DevOps Intern",
     cardImage: "assets/images/experience-page/knoldus.jpg",
     place: "Knoldus Inc.",
-    time: "(Jul 2021 - Now)",
-    desp: "<li>Working on UKG IAM DevOps Project and Internal Knoldus Infrastructure</li><li>Task Done: Helm Repo Migration to Jfrog, Migrating Apps to GCP from Openstack, Enhancement of existing deployment pipelines and etc</li><li>Tools and technologies that I am currently working on: Linux, Docker, Kubernetes, Helm3, Terraform, Packer, Ansible, Vault, Openstack, GCP, Concourse etc</li>",
-  },
+    time: "(Jan, 2019 - Jun, 2019)",
+    desp: "<li>I started my career with knoldus as a software intern</li> <li>I Worked on scala lagom framework to build a knol reward application in my 3 month of training period</li> <li>Then I moved to DevOps and start training on DevOps tools and technologies</li> <li>In DevOps training I learnt the popular tools like Docker, Jenkins, Kubernetes, Prometheus, Grafana, ELK Stack, linux, Bash scripting, Python scripting, etc.</li>",
+  }
 ];
 
 const showCards2 = () => {
@@ -64,6 +71,12 @@ const volunteershipcards = [
   {
     title: "Certified Kubernetes Administrator",
     cardImage: "assets/images/experience-page/cka.png",
+    description:
+      "",
+  },
+  {
+    title: "Certified Kubernetes Application Developer",
+    cardImage: "assets/images/experience-page/ckad.png",
     description:
       "",
   },
