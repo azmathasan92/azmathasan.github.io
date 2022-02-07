@@ -203,7 +203,7 @@ let footer = $(`
               <input type="text" name="field1" placeholder="Your Name" />
               <input type="email" name="field2" placeholder="Email Address" />
               <textarea name="field3" placeholder="Type your Message"></textarea>
-              <button type="submit">Send</button>
+              <input type="submit" value="Send" />
             </form>
           </div>
         </div>
