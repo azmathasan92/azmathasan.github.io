@@ -170,7 +170,7 @@ let footer = $(`
                 <circle cx="4" cy="4" r="2"></circle>
               </svg>
             </a>
-            <a class="social-button instagram" href="https://www.instagram.com/azmat_hasan/" target="_blank" >
+            <a class="social-button instagram" href="https://www.instagram.com/azmathasan92/" target="_blank" >
              <!-- svg code for instagram icon -->
               <svg class="instagram-icon-footer" x="0px" y="0px" viewBox="0 0 202.5 202.5"
                  style="enable-background:new 0 0 202.5 202.5;">
