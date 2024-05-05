@@ -4,10 +4,17 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Principal DevOps Engineer",
+    cardImage: "assets/images/experience-page/ukg.jpg",
+    place: "UKG",
+    time: "(JAN 2024 - Now)",
+    desp: "<li>Working on UKG IAM Project as a Tech Lead</li><li>Leading DevOps Work of UKG Authn and Iam Authn Projects</li><li>Devops Tools: GCP, Auth0, ConcourseCI, Github Actions, Kubernetes, Helm, Terraform, Ansible, Packer, Bitbucket, SonarQube, Grafana, ELK, ForgeRock, RabbitMQ, Kafka, Radis, SpringBoot, etc</li>",
+  },
+  {
     title: "Lead DevOps Engineer",
     cardImage: "assets/images/experience-page/ukg.jpg",
     place: "UKG",
-    time: "(Nov 2021 - Now)",
+    time: "(Nov 2021 - Dec 2023)",
     desp: "<li>Working on UKG IAM Project</li><li>Provide Devops support to the team</li><li>Devops Tools: GCP, ConcourseCI, Kubernetes, Helm, Terraform, Ansible, Packer, Bitbucket, SonarQube, Grafana, ELK, ForgeRock, RabbitMQ, Kafka, Radis, SpringBoot, etc</li>",
   },
   {
@@ -144,7 +151,7 @@ const mentor = [
     desp: "<li><b>UKG Notifications</b> - This is an HR and workforce management solution in which we worked on a notification platform, The aim of this to enable two-way communication using sms, slack, and email.</li><hr /><li><b>Technologies Used:</b> Kubernetes, Docker, ConcourseCI, Terraform, AWS(SES, SQS, Pinpoint, Kinesis, and DynamoDB), Quark(In-house Tool for k8 deployment), influxDB, Grafana, Spring, Java, BItbucket, Sonar, MongoDB, Kafka, Rabbit, ISTIO, etc</li>",
   },
   {
-    title: "UKG IAM-DevOps",
+    title: "UKG IAM Authn",
     image: "assets/images/experience-page/ukg.jpg",
     time: "04/2021 - now",
     desp: "<li><b>UKG IAM-DevOps</b> - This is a UKG Platform for Identity and Access Management that is built on top of the ForgeRock and OpenStack.</li><hr /><li><b>Technologies Used:</b> Kubernetes, Helm, Docker, ConcourseCI, Terraform, Packer, ForgeRock, OpenStack, Fling, GCP, influxDB, Grafana, Spring, Java, BItbucket, Sonar, MongoDB, Kafka, Rabbit, ISTIO, ELK Stack, etc</li>",

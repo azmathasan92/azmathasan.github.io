@@ -200,9 +200,11 @@ let footer = $(`
           <div class="form-style-6">
             <h6 class="display">Get in Touch</h6>
             <form action="https://formsubmit.co/azmathasan92@gmail.com" method="POST">
-              <input type="text" name="Name" placeholder="Your Name" />
-              <input type="email" name="Email" placeholder="Email Address" />
+              <input type="text" name="name" placeholder="Your Name" />
+              <input type="email" name="email" placeholder="Email Address" />
               <textarea name="Message" placeholder="Type your Message"></textarea>
+              <input type="hidden" name="_next" value="https://azmathasan.in/">
+              <input type="hidden" name="_captcha" value="false">
               <input type="submit" value="Send" />
             </form>
           </div>
